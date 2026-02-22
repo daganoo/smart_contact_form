@@ -15,6 +15,11 @@ const AdminDashboard = ({ onBack }) => {
         try {
             const res = await axios.get(
                 `${import.meta.env.VITE_API_URL.replace("/contact", "")}/submissions`,
+                {
+                    headers: {
+                        authorization: import.meta.env.VITE_ADMIN_SECRET,
+                    },
+                },
             );
             setSubmissions(res.data);
         } catch (err) {
