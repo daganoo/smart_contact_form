@@ -13,10 +13,13 @@ Serverless contact form pipeline built on AWS — form submissions are validated
 ---
 
 ## 🖼️ Application Screenshots
-
+## our form
 ![Form ](public/form.png)
+## Message sent with success messages
 ![Message sent successfully ](public/msg_sent.png)
+## admin dashboard 
 ![Adimin dashboard ](public/admin_dash.png)
+## database emails
 ![dynamoDB database](public/dynamoDB_buckup.png)
 
 ---
