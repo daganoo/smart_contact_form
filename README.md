@@ -7,7 +7,7 @@ Serverless contact form pipeline built on AWS — form submissions are validated
 
 
 
-🔗 **Live Demo:** [https://main.d29u8n0o72ktwh.amplifyapp.com](https://smart-contact-form.vercel.app/)
+🔗 **Live Demo:** [https://smart-contact-form.vercel.app](https://smart-contact-form.vercel.app/)
 
 ---
 
