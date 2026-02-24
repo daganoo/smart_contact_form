@@ -1,9 +1,10 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](https://smart-contact-form.vercel.app/)
+[![GitHub](https://img.shields.io/badge/github-repository-blue?style=for-the-badge&logo=github)](https://github.com/daganoo/smart_contact_form)
+
 # 📬 Smart Contact Form — Serverless AWS
 
 Serverless contact form pipeline built on AWS — form submissions are validated client-side, transmitted via HTTPS to API Gateway, processed by a Node.js Lambda function, persisted in DynamoDB (UUID partition key), and trigger transactional email notifications through SES. Includes a JWT-less secret-based secured admin dashboard to query all submissions. Infrastructure costs ~$0.50/month under real traffic.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](https://smart-contact-form.vercel.app/)
-[![GitHub](https://img.shields.io/badge/github-repository-blue?style=for-the-badge&logo=github)](https://github.com/daganoo/smart_contact_form)
 
 
 🔗 **Live Demo:** [https://main.d29u8n0o72ktwh.amplifyapp.com](https://smart-contact-form.vercel.app/)
